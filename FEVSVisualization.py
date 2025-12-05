@@ -53,7 +53,7 @@ def load_data(file_path):
         return None, None, None
 
 # IMPORTANT: Make sure this path is correct
-excel_filename = "/Users/richardzhang/Documents/FEVS/fevs_sample_data_3FYs_DataSet_3.xlsx"
+excel_filename = "fevs_sample_data_3FYs_DataSet_3.xlsx"
 responses_df, questions_df, population_df = load_data(excel_filename)
 
 # --- 2. Data Processing ---
